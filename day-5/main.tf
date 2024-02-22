@@ -1,3 +1,5 @@
+#creating s3 bucket and dynamo DB for state backend storgae applying the lock for statefile
+
 provider "aws" { 
 }
 

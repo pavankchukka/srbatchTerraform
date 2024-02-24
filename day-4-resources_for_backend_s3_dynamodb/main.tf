@@ -4,7 +4,8 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "example" {
-  bucket = "bucket_name"
+  bucket = "qwertyuio"
+  
 }
 
 resource "aws_dynamodb_table" "dynamodb-terraform-state-lock" {

@@ -18,6 +18,12 @@ sudo systemctl enable jenkins
 sudo systemctl start jenkins
 
 
+# ------------------install terraform ------------------
+
+sudo yum install -y yum-utils
+sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/AmazonLinux/hashicorp.repo
+sudo yum -y install terraform
+
 #---------------------------------install tomcat------------------
 #sudo wget url https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.83/bin/apache-tomcat-9.0.83.tar.gz
 #sudo tar -xvzf apache-tomcat-9.0.83.tar.gz #untar
